@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: lightgray;
+}
+
+.box {
+    flex-grow: 0;
+    /* Default value */
+    background: orange;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box1 {
+    /* <!-- flex-grow: 1; --> */
+    /* Takes 1 part of the remaining space */
+}
+    
+    .box2 {
+        margin-inline: 10px;
+        /* <!-- flex-grow: 2; --> */
+        /* Takes 2 parts of the remaining space */
+}
+
+.box3 {
+    /* <!-- flex-grow: 0; --> */
+    /* Does not grow */
+}

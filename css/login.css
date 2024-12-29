@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 100px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+img{
+    width: 500px;
+    border-radius: 20px;
+}
+input{
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 200px;
+}
+.form_group{
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+.btn_signup{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

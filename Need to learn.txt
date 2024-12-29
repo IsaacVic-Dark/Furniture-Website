@@ -1,0 +1,53 @@
+Overlay two images, half the image ontop of another.
+
+Grid layout.
+
+install liveserver.
+
+I have a container with margin-inline on the main tag and want a section inside the main section to have a margin zero. How can  go about this.
+
+dropdown menu and responsivness.
+
+background image on only two section.
+
+
+<button class="btn_login">
+    <a href="./login.html">Login</a>
+</button>
+.btn_login:hover{
+    color: orange;
+}
+Why wont this work 
+
+
+<div class="card">
+    <img src="./image/chair.png" alt="No photo">
+    <h3>Kitchen</h3>
+</div>
+how can  center the img and h3 tag without using display flex
+
+
+<nav class="nav">
+<div class="left">
+    <h1>Welcome to furniture</h1>
+    <p>Hello John Doe, welcome back!</p>
+</div>
+<div class="middle">
+    <input type="text" placeholder="Search Dashboard">
+</div>
+<div class="right">
+    <img src="" alt="No photo">
+    <img src="" alt="No photo">
+    <img src="" alt="No photo">
+</div>
+</nav>
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+why wont the divs not take up th full width of it parent container
+soln:
+its because the child element only takes the width of its content and if we want it to take up the whole width if we are using the flex layout we use flex-grow: 1; to make sure the child element takes up th remaining space.
+
+
