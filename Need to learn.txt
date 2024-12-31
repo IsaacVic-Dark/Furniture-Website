@@ -51,3 +51,4 @@ soln:
 its because the child element only takes the width of its content and if we want it to take up the whole width if we are using the flex layout we use flex-grow: 1; to make sure the child element takes up th remaining space.
 
 
+designing a card with box shadow.
